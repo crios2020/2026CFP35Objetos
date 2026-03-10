@@ -1,0 +1,15 @@
+JDK: (Java Development Kit) (Kit De desarrollo Java)
+    Oracle, OpenJDK, RedHat, IBM, Apache Software, Eclipse Foundation, Amazon
+
+    Usar JDK Versión 25 LTS
+    https://www.oracle.com/es/java/technologies/downloads/#jdk25-windows
+
+    LTS (Long Term Support) (Soporte de Plazo Extendido)
+
+IDE: (Integrated Development Enviroment) (Entorno de Desarrollo Integrado) 
+    VSCode - Netbeans - Eclipse
+
+
+GIT:    Para instalar GIT hay que tener code o codium cerrado
+        https://git-scm.com/
+
