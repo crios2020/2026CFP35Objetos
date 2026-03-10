@@ -13,3 +13,6 @@ IDE: (Integrated Development Enviroment) (Entorno de Desarrollo Integrado)
 GIT:    Para instalar GIT hay que tener code o codium cerrado
         https://git-scm.com/
 
+
+Extensiones de VSCode para java: Extension Pack for Java (Microsoft o vscjava)
+
