@@ -2,6 +2,8 @@
 **Negritas**
 *Cursiva*
 
+Archivo con ejemplo de uso de formato MarkDown .md
+
 Texto común 
 
 * lunes
