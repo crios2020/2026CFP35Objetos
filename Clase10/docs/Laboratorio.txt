@@ -1,0 +1,23 @@
+Ejercicio: Composición de Clases - Escuela y Estudiante
+
+Descripción:
+Crea una clase Estudiante y una clase Escuela. La clase Escuela debe contener una 
+    lista de objetos Estudiante.
+
+Requisitos:
+Clase Estudiante:
+
+    Atributos:
+    - nombre (String)
+    - edad (int)
+    Métodos:
+    - Un constructor para inicializar los atributos.
+    - toString: Devuelve una representación en forma de cadena del estudiante.
+
+Clase Escuela:
+    Atributos:
+    - nombre (String)
+    - estudiantes (ArrayList de objetos Estudiante)
+    Métodos:
+    - agregarEstudiante(Estudiante estudiante): Agrega un objeto Estudiante a la lista.
+    - listarEstudiantes(): Imprime todos los estudiantes en la escuela.
