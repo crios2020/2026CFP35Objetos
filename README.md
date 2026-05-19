@@ -12,7 +12,7 @@
         * codeshare:  https://codeshare.io/crios2020
         * meet:       https://meet.google.com/apo-fedn-cwv
         * grabaciones:https://www.youtube.com/watch?v=UXAltfkVCIw&list=PLMLmotKSEKYfobV2_eyZxVxc88E-27k7t
-        *             https://www.youtube.com/watch?v=UXAltfkVCIw&list=PLMLmotKSEKYfobV2_eyZxVxc88E-27k7t
+        *             https://www.youtube.com/watch?v=8mTxlxv000M&list=PLMLmotKSEKYfGoMeuEbVVT6ZYlxuk-zsF
         *             https://www.youtube.com/watch?v=UXAltfkVCIw&list=PLMLmotKSEKYfobV2_eyZxVxc88E-27k7t
         *             https://www.youtube.com/watch?v=UXAltfkVCIw&list=PLMLmotKSEKYfobV2_eyZxVxc88E-27k7t
         
