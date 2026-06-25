@@ -132,5 +132,55 @@ public class TestApiStream {
                         )
                 .forEach(System.out::println); 
 
+        //select min(edad) edad_mínima from personas;
+        System.out.println("--------------------------------------------------------------");   
+        System.out.println(
+                personas
+                        .stream()
+                        .min(Comparator.comparingInt(Persona::getEdad))
+                        .get()
+                        .getEdad()
+        );
+
+        //select max(edad) edad_máxima from personas;
+        System.out.println("--------------------------------------------------------------");  
+        System.out.println(
+                personas
+                        .stream()
+                        .max(Comparator.comparingInt(Persona::getEdad))
+                        .get()
+                        .getEdad()
+        );
+
+        //select count(*) cantidad from personas;
+        System.out.println("--------------------------------------------------------------");  
+        System.out.println(
+                personas
+                        .stream()
+                        .count()
+        );
+
+        //select count(*) cantidad from personas where edad<=30;
+        System.out.println("--------------------------------------------------------------");  
+                System.out.println(
+                personas
+                        .stream()
+                        .filter(p->p.getEdad()<=30)
+                        .count()
+        );
+
+        //select * from personas where edad=(select min(edad) from personas);
+        System.out.println("--------------------------------------------------------------"); 
+        int edad_minima= personas
+                                .stream()
+                                .min(Comparator.comparingInt(Persona::getEdad))
+                                .get()
+                                .getEdad();
+        personas
+                .stream()
+                .filter(p->p.getEdad()==edad_minima)
+                .forEach(System.out::println);
+
+                
     }
 }
